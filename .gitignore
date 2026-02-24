@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- Playwright & Allure Specific ---
+# תיקיית תוצאות הבדיקה (צילומי מסך, וידאו)
+test-results/
+# קבצי המקור של דוח אלור (JSON, CSV)
+allure-results/
+# הדוח הסופי שנוצר מאלור (HTML)
+allure-report/
+# דוחות ברירת מחדל של פליירייט
+playwright-report/
+blob-report/
